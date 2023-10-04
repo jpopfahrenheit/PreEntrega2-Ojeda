@@ -1,9 +1,21 @@
+/* line 1, ../3er_entrega/sass/estilos.scss */
 .mi_textarea {
-    height: 200px; 
-    width: 100%; 
-  }
-
-.mi_btn_enviar{
-    width: 100px;
+  height: 200px;
+  width: 100%;
 }
-  
+
+/* line 6, ../3er_entrega/sass/estilos.scss */
+.mi_btn_enviar {
+  width: 100px;
+}
+
+/* line 12, ../3er_entrega/sass/estilos.scss */
+#powerbi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-height: 400px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
