@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 1, ../3er_entrega/sass/estilos.scss */
 .mi_textarea {
   height: 200px;
@@ -10,47 +9,14 @@
   width: 100px;
 }
 
-/* line 12, ../3er_entrega/sass/estilos.scss */
-.iframe {
-  width: 100%;
-  height: 56.25vw;
-  /* 100% / 16 * 9 = 56.25% */
-}
-
-/* Estilos para pantallas de teléfono celular */
-@media (max-width: 767px) {
-  /* line 19, ../3er_entrega/sass/estilos.scss */
-  iframe {
-    height: 150px;
-    /* Ajusta la altura para móviles, según tus necesidades */
-  }
-}
-
-/* Estilos para pantallas de tabletas */
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 26, ../3er_entrega/sass/estilos.scss */
-  iframe {
-    height: 300px;
-    /* Ajusta la altura para tabletas, según tus necesidades */
-  }
-}
-
-/* Estilos para pantallas de escritorio */
-@media (min-width: 992px) {
-  /* line 33, ../3er_entrega/sass/estilos.scss */
-  iframe {
-    height: 450px;
-    /* Ajusta la altura para escritorio, según tus necesidades */
-  }
-}
-
-/*
+/* line 10, ../3er_entrega/sass/estilos.scss */
 .iframe-container {
   position: relative;
   overflow: hidden;
   padding-top: 75%;
 }
 
+/* line 16, ../3er_entrega/sass/estilos.scss */
 .iframe-container iframe {
   position: absolute;
   top: 0;
@@ -59,8 +25,8 @@
   height: 83%;
   border: none;
 }
-*/
-/* line 55, ../3er_entrega/sass/estilos.scss */
+
+/* line 26, ../3er_entrega/sass/estilos.scss */
 #powerbi {
   width: 100%;
 }
