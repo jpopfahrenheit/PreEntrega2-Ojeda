@@ -5,8 +5,8 @@
 		"../sass/estilos.scss"
 	],
 	"sourcesContent": [
-		".mi_textarea{\r\n    height: 200px; \r\n    width: 100%; \r\n  }\r\n\r\n.mi_btn_enviar{\r\n    width: 100px;\r\n}\r\n\r\n\r\n  \r\n#powerbi{\r\n  display: flex;\r\n  justify-content: center; \r\n  align-items: center;\r\n  width: 90%;\r\n  min-height: 400px;\r\n}"
+		".mi_textarea{\r\n    height: 200px; \r\n    width: 100%; \r\n  }\r\n\r\n.mi_btn_enviar{\r\n    width: 100px;\r\n}\r\n\r\n\r\n.iframe-container {\r\n  position: relative;\r\n  overflow: hidden;\r\n  padding-top: 75%;\r\n}\r\n\r\n.iframe-container iframe {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 83%;\r\n  border: none;\r\n}\r\n\r\n#powerbi{\r\n  width: 100%;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,YAAY,CAAA;EACR,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACZ;;;AAEH,AAAA,cAAc,CAAA;EACV,KAAK,EAAE,KAAK;CACf;;;AAID,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,KAAK;CAClB"
+	"mappings": ";AAAA,AAAA,YAAY,CAAA;EACR,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACZ;;;AAEH,AAAA,cAAc,CAAA;EACV,KAAK,EAAE,KAAK;CACf;;;AAGD,AAAA,iBAAiB,CAAC;EAChB,QAAQ,EAAE,QAAQ;EAClB,QAAQ,EAAE,MAAM;EAChB,WAAW,EAAE,GAAG;CACjB;;;AAED,AAAA,iBAAiB,CAAC,MAAM,CAAC;EACvB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;CACb;;;AAED,AAAA,QAAQ,CAAA;EACN,KAAK,EAAE,IAAI;CACZ"
 }

@@ -9,13 +9,26 @@
   width: 100px;
 }
 
-/* line 12, ../3er_entrega/sass/estilos.scss */
+/* line 11, ../3er_entrega/sass/estilos.scss */
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 75%;
+}
+
+/* line 17, ../3er_entrega/sass/estilos.scss */
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 83%;
+  border: none;
+}
+
+/* line 26, ../3er_entrega/sass/estilos.scss */
 #powerbi {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  min-height: 400px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
