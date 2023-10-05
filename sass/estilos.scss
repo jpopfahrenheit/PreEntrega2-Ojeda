@@ -1,3 +1,27 @@
+/* Color para cada pagina */
+
+/* página 1 */
+body.inicio {
+  background-color: #ff583321;
+}
+/* página 2 */
+body.nosotros {
+  background-color: #33ff581f;
+}
+/* página 3 */
+body.servicios {
+  background-color: #5833ff13;
+}
+/* página 4 */
+body.ejemplos {
+  background-color: #f0f0f0;
+}
+/* página 5 */
+body.contacto {
+  background-color: #33ffff1a;
+}
+/* FIN Color para cada página */ 
+
 .mi_textarea {
   height: 200px;
   width: 100%;
@@ -61,7 +85,7 @@
 
 .card-title {
   font-size: 1.25em;
-  font-weight: 600;
-  
+  font-weight: 600;  
 }
-/* FIN CARD STYLE*/
+
+/* FIN CARD STYLE */
