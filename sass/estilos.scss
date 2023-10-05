@@ -1,28 +1,26 @@
-.mi_textarea{
-    height: 200px; 
-    width: 100%; 
-  }
-
-.mi_btn_enviar{
-    width: 100px;
+.mi_textarea {
+  height: 200px;
+  width: 100%;
 }
 
-.iframe-container {
+.mi_btn_enviar {
+  width: 100px;
+}
+
+#powerbi-container {
   position: relative;
-  overflow: hidden;
-  padding-top: 75%;
-}
-
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 83%;
-  border: none;
+  padding-bottom: 56.25%;
+
+  /* para relacion 16:9 */
 }
 
-
-#powerbi{
-  width: 100%;
-}
+/* estilo iframe dentro del contenedor */
+  #powerbi-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }

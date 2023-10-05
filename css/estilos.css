@@ -10,25 +10,22 @@
 }
 
 /* line 10, ../3er_entrega/sass/estilos.scss */
-.iframe-container {
+#powerbi-container {
   position: relative;
-  overflow: hidden;
-  padding-top: 75%;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* para relacion 16:9 */
 }
 
-/* line 16, ../3er_entrega/sass/estilos.scss */
-.iframe-container iframe {
+/* estilo iframe dentro del contenedor */
+/* line 19, ../3er_entrega/sass/estilos.scss */
+#powerbi-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 83%;
+  height: 100%;
   border: none;
-}
-
-/* line 26, ../3er_entrega/sass/estilos.scss */
-#powerbi {
-  width: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
